@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="../style.css">
+	<link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet"> 
+</head>
+<body>
+
+	<audio id="snare-drum-sound" src="http://www.wavlist.com/soundfx/027/drum_snare2.wav"></audio>
+	<audio id="bass-drum-sound" src="http://www.denhaku.com/r_box/sr16/sr16bd/ambntelc.wav"></audio>
+	<audio id="tom-sound" src="http://www.denhaku.com/r_box/sr16/sr16tom/hican%20hl.wav"></audio>
+	<audio id="floor-tom-sound" src="http://www.denhaku.com/r_box/linn/lotom.wav"></audio>
+	<audio id="hihat-sound" src="http://bigsamples.free.fr/d_kit/hithat/hat_3.wav"></audio>
+	<audio id="crash-sound" src="http://www.sibegg.com/si_begg_audio/NOOJNT1B_crash.aif.mp3"></audio>
+	<audio id="ride-sound" src="http://www.denhaku.com/r_box/sr16/sr16cym/ridebell.wav"></audio>
+	<audio id="splash-sound" src="http://www.enete.org/audio/OtherChina/little-splash.wav"></audio>
+	<audio id="china-sound" src="http://www.enete.org/audio/OtherChina/CHINA-CYMBAL.wav"></audio>
+	<audio id="bell-sound" src="http://www.spanamwar.com/55kbbell.WAV"></audio>
+	<audio id="cowbell-sound" src="http://4umi.com/web/sound/cowbell.wav"></audio>
+	<audio id="tam-sound" src="http://gamelay.usami.com/~netboy/w30/samples/01_roland_mc-303/wavs/Hittamb.wav"></audio>
+	<audio id="block-sound" src="http://www.ken3.net/km/sound/woodblock.wav"></audio>
+	<audio id="e-snare-sound" src="http://soundcavern.free.fr/snare/sn909v2.wav"></audio>
+	<audio id="e-bass-sound" src="http://bigsamples.free.fr/d_kit/bdkick/bt7a0d0.wav"></audio>
+
+	<h1 style="color: black;">Click A Picture to Hear Its Sound!</h1>
+
+	<div id="drum-parts-grid">
+		<div>
+			<p>Snare Drum</p>
+			<img class="pic-in-grid" src="../pictures/snaredrum.jpg" alt="snare drum" value="PLAY" onclick="playSnare()">
+		</div>
+		<div>
+			<p>Bass Drum</p>
+			<img class="pic-in-grid" src="../pictures/bassdrum.jpg" alt="bass drum" value="PLAY" onclick="playBass()">
+		</div>
+		<div>
+			<p>Tom Tom</p>
+			<img class="pic-in-grid" src="../pictures/tomtom1.jpg" alt="tom tom" value="PLAY" onclick="playTom()">
+		</div>
+		<div>
+			<p>Floor Tom</p>
+			<img class="pic-in-grid" src="../pictures/floortom.jpg" alt="floor tom" value="PLAY" onclick="playFloorTom()">
+		</div>
+		<div>
+			<p>Hi Hat</p>
+			<img class="pic-in-grid" src="../pictures/hihat.jpg" alt="hi hat" value="PLAY" onclick="playHiHat()">
+		</div>
+		<div>
+			<p>Crash Cymbal</p>
+			<img class="pic-in-grid" src="../pictures/crashcymbal.jpg" alt="crash cymbal" value="PLAY" onclick="playCrash()">
+		</div>
+		<div>
+			<p>Ride Cymbal</p>
+			<img class="pic-in-grid" src="../pictures/ridecymbal.jpg" alt="ride cymbal" value="PLAY" onclick="playRide()">
+		</div>
+		<div>
+			<p>Splash Cymbal</p>
+			<img class="pic-in-grid" src="../pictures/splashcymbal.jpg" alt="splash cymbal" value="PLAY" onclick="playSplash()">
+		</div>
+		<div>
+			<p>China Cymbal</p>
+			<img class="pic-in-grid" src="../pictures/chinacymbal.jpg" alt="china cymbal" value="PLAY" onclick="playChina()">
+		</div>
+		<div>
+			<p>Bell Cymbal</p>
+			<img class="pic-in-grid" src="../pictures/bellcymbal.jpg" alt="bell cymbal" value="PLAY" onclick="playBell()">
+		</div>
+		<div>
+			<p>CowBell</p>
+			<img class="pic-in-grid" src="../pictures/cowbell.jpg" alt="cow bell" value="PLAY" onclick="playCowBell()">
+		</div>
+		<div>
+			<p>Tambourine</p>
+			<img class="pic-in-grid" src="../pictures/tambourine.jpg" alt="tambourine" value="PLAY" onclick="playTam()">
+		</div>
+		<div>
+			<p>Temple Blocks</p>
+			<img class="pic-in-grid" src="../pictures/templeblocks.jpg" alt="templeblocks" value="PLAY" onclick="playTemples()">
+		</div>
+		<div>
+			<p>Electric Drum</p>
+			<img class="pic-in-grid" src="../pictures/electricdrum.jpg" alt="electric drum" value="PLAY" onclick="playEDrum()">
+		</div>
+		<div>
+			<p>Electric Bass Drum</p>
+			<img class="pic-in-grid" src="../pictures/electricbassdrum.jpg" alt="electric bass drum" value="PLAY" onclick="playEBDrum()">
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		function playSnare() {
+			document.getElementById("snare-drum-sound").play();
+		}
+		function playBass() {
+			document.getElementById("bass-drum-sound").play();
+		}
+		function playTom() {
+			document.getElementById("tom-sound").play();
+		}
+		function playFloorTom() {
+			document.getElementById("floor-tom-sound").play();
+		}
+		function playHiHat() {
+			document.getElementById("hihat-sound").play();
+		}
+		function playCrash() {
+			document.getElementById("crash-sound").play();
+		}
+		function playRide() {
+			document.getElementById("ride-sound").play();
+		}
+		function playSplash() {
+			document.getElementById("splash-sound").play();
+		}
+		function playChina() {
+			document.getElementById("china-sound").play();
+		}
+		function playBell() {
+			document.getElementById("bell-sound").play();
+		}
+		function playCowBell() {
+			document.getElementById("cowbell-sound").play();
+		}
+		function playTam() {
+			document.getElementById("tam-sound").play();
+		}
+		function playTemples() {
+			document.getElementById("block-sound").play();
+		}
+		function playEDrum() {
+			document.getElementById("e-snare-sound").play();
+		}
+		function playEBDrum() {
+			document.getElementById("e-bass-sound").play();
+		}
+	</script>
+
+</body>
+</html>
