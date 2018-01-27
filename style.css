@@ -1,0 +1,44 @@
+body, html {
+	height: 100%;
+	font-family: 'Sarala', sans-serif;
+	color: white;
+	overflow-y: hidden;
+}
+
+#index-grid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-rows: 1fr;
+	height: 95%;
+	margin: 2%;
+}
+
+#back-drum-pic-area {
+	background: url("pictures/full_drumset.jpg") no-repeat left top;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+}
+
+#main-heading {
+	font-size: 5em;
+	margin-left: 3%;
+}
+
+h2 {
+	margin-left: 3%;
+}
+
+#resource-area {
+	background-color: #4E5E61;
+	margin: 3%;
+	margin-bottom: 20%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+p {
+	color: black;
+}
