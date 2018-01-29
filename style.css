@@ -2,19 +2,19 @@ body, html {
 	height: 100%;
 	font-family: 'Sarala', sans-serif;
 	color: white;
-	overflow-y: hidden;
 }
 
 #index-grid {
-	display: grid;
+	display:grid;
 	grid-template-columns: 3fr 1fr;
 	grid-template-rows: 1fr;
-	height: 95%;
+	height: 85%;
 	margin: 2%;
+	overflow-y: hidden;
 }
 
 #back-drum-pic-area {
-	background: url("pictures/full_drumset.jpg") no-repeat left top;
+	background: url("pictures/drumset2.jpg") no-repeat left top;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -22,7 +22,7 @@ body, html {
 }
 
 #main-heading {
-	font-size: 5em;
+	font-size: 4em;
 	margin-left: 3%;
 }
 
@@ -32,13 +32,160 @@ h2 {
 
 #resource-area {
 	background-color: #4E5E61;
-	margin: 3%;
-	margin-bottom: 20%;
+	margin: auto;
+	margin-left: 4%;
+	height: 90%;
+	width: 100%;
 	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr;
+	grid-template-rows: 20% 20% 20% 20%;
+	grid-gap: 1%;
+	align-content: center;
+}
+
+.menu-pic {
+	display: inline-block;
+	width: auto;
+	float: left;
+	height: 50px;
+	margin: 15px;
+	border-radius: 50%;
 }
 
 p {
 	color: black;
 }
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.footer {
+	margin: 2%;
+	background-color: #4E5E61;
+	text-indent: 2%;
+	position: relative;
+}
+
+.footer a:hover {
+	color: #AE8968;
+}
+
+#drum-parts-grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+	width: 85%;
+	margin: auto;
+}
+
+.pic-in-grid {
+	width: 100%;
+}
+
+.menu {
+	background-color: #4E5E61;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu-item {
+	float: left;
+}
+
+.menu-item a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.menu-item a:hover {
+	background-color: #AE8968;
+}
+
+.active {
+	background-color: #AE8968;
+}
+
+#contact-wrap {
+	background-color: #4E5E61;
+	width: 80%;
+	height: 75%;
+	margin: auto;
+	margin-top: 2%;
+}
+
+#form {
+	position: relative;
+	height: 50%;
+	padding: 2em;
+	right: 0;
+	bottom: 10;
+	left: 100;
+	margin: auto;
+}
+
+input[type=text] {
+	background-color: white;
+	color: #AE8968;
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #AE8968;
+}
+
+textarea {
+	background-color: white;
+	color: #AE8968;
+	width: 100%;
+	height: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #AE8968;
+}
+
+button {
+	background-color: white;
+	color: #4E5E61;
+	font-size: 2em;
+	width: 100%;
+	border: 2px solid #AE8968;
+	border-radius: 5px;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+#info-wrap {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	grid-template-rows: repeat(15, 5%);
+	grid-gap: 20px;
+	width: 90%;
+	margin: 2%;
+}
+
+.info-pic {
+	float: left;
+	margin: 2%;
+	width: 100%;
+}
+
+.inst {
+	font-size: 1.5em;
+}
+
+
+
+
+
+
