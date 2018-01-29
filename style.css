@@ -184,8 +184,25 @@ button {
 	font-size: 1.5em;
 }
 
+#resources-page {
+	position: absolute;
+	margin: auto;
+}
 
+#resources-page img {
+	width: 30%;
+	margin: 10px;
+}
 
+.resources-header {
+	color: black;
+	font-size: 3em;
+}
+
+#drum-div, #cymbal-div, #electric-div {
+	border-bottom: 5px solid #4E5E61;
+	width: 98%;
+}
 
 
 
