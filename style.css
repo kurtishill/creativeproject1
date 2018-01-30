@@ -30,6 +30,8 @@ h2 {
 	margin-left: 3%;
 }
 
+
+
 #resource-area {
 	background-color: #4E5E61;
 	margin: auto;
@@ -41,6 +43,10 @@ h2 {
 	grid-template-rows: 20% 20% 20% 20%;
 	grid-gap: 1%;
 	align-content: center;
+}
+
+.side-menu-header {
+	font-size: 1em;
 }
 
 .menu-pic {
@@ -66,6 +72,7 @@ a {
 	background-color: #4E5E61;
 	text-indent: 2%;
 	position: relative;
+	text-align: center;
 }
 
 .footer a:hover {
@@ -170,8 +177,10 @@ button {
 	grid-template-columns: 1fr 6fr;
 	grid-template-rows: repeat(15, 5%);
 	grid-gap: 20px;
-	width: 90%;
-	margin: 2%;
+	width: 70%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .info-pic {
@@ -185,8 +194,9 @@ button {
 }
 
 #resources-page {
-	position: absolute;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
 }
 
 #resources-page img {
