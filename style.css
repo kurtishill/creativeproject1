@@ -5,8 +5,8 @@ body, html {
 }
 
 #index-grid {
-	display:grid;
-	grid-template-columns: 3fr 1fr;
+	display: grid;
+	grid-template-columns: 75% 25%;
 	grid-template-rows: 1fr;
 	height: 85%;
 	margin: 2%;
@@ -29,7 +29,6 @@ body, html {
 h2 {
 	margin-left: 3%;
 }
-
 
 
 #resource-area {
@@ -127,7 +126,6 @@ a {
 }
 
 #form {
-	position: relative;
 	height: 50%;
 	padding: 2em;
 	right: 0;
